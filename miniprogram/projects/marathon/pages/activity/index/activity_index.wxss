@@ -1,0 +1,76 @@
+@import "../../../style/skin.wxss";
+
+.main {
+	padding: 0rpx !important;
+}
+
+
+.list {
+	width: 100%;
+	padding: 20rpx 20rpx 20rpx;
+	display: flex;
+	flex-direction: column;
+}
+
+.list .item {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	padding: 0rpx;
+	overflow: hidden;
+	position: relative;
+	border-radius: 5rpx;
+	margin-bottom: 35rpx;
+}
+
+.list .item .corner {
+	background-color: #ccc;
+	color: #333;
+	width: 50%;
+	height: 60rpx;
+	line-height: 60rpx;
+	text-align: center;
+	margin-left: 70%;
+	margin-top: 18rpx;
+	position: absolute;
+	transform: rotate(45deg);
+	z-index: 1999;
+	font-size: 24rpx;
+}
+
+.list .item>image {
+	width: 100%;
+	height: 350rpx;
+	border-top-left-radius: 5rpx;
+	border-top-right-radius: 5rpx;
+}
+
+.list .item .line {
+	width: 100%;
+	height: 80rpx;
+	display: flex;
+}
+
+.list .item .line .right {
+	flex: 1;
+	background-color: var(--projectColor);
+	color: #fff;
+	font-size: 26rpx;
+	font-weight: bold;
+	padding: 0 15rpx;
+	line-height: 80rpx;
+	text-align: right;
+}
+
+.list .item .line .left {
+	background-color: var(--projectCompareColor);
+	color: #fff;
+	font-size: 24rpx;
+	padding: 0 20rpx 0 20rpx;
+	line-height: 90rpx;
+	text-align: right;
+	margin-top: -10rpx;
+	position: relative;
+	border-top-right-radius: 5rpx;
+}

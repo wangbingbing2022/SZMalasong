@@ -1,0 +1,216 @@
+@import "../../../../../style/public/comm_box_list.wxss";
+@import "../../../style/skin.wxss";
+
+page {
+	background-color: #fff;
+}
+
+.main {
+	padding: 0rpx 0rpx 100rpx;
+}
+
+.up {
+	width: 100%;
+	padding: 0;
+}
+
+.up image {
+	width: 100%;
+}
+
+.down {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0rpx 0rpx 10rpx;
+	z-index: 9999;
+	position: relative;
+	margin-top: 0rpx;
+	background-color: #fff !important;
+}
+
+.menu {
+	width: 100%;
+	padding: 20rpx 20rpx 30rpx;
+	white-space: nowrap;
+}
+
+.menu .item {
+	width: 200rpx;
+	height: 200rpx;
+	display: inline-block;
+	background-image: linear-gradient(145deg, #EF2E56, #e74061, #EF2E56);
+	border-radius: 5rpx;
+	position: relative;
+	margin-right: 20rpx;
+	line-height: 200rpx;
+	text-align: center;
+}
+
+.menu .item:nth-child(2) {
+	background-image: linear-gradient(145deg, #101012, #101012, #101012);
+}
+
+.menu .item:nth-child(3) {
+	background-image: linear-gradient(145deg, #1B4A6B, #1B4A6B, #1B4A6B);
+}
+
+.menu .item:nth-child(4) {
+	background-image: linear-gradient(145deg, #B17119, #B17119, #B17119);
+}
+
+.menu .item:nth-child(5) {
+	background-image: linear-gradient(145deg, #097258, #0c9472, #10af87);
+}
+
+.menu .item:nth-child(6) {
+	background-image: linear-gradient(145deg, #6a0783, #a011c3, #b431d4);
+}
+
+.menu .item .title {
+	width: 100%;
+	font-size: 28rpx;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	z-index: 9999;
+	position: relative;
+}
+
+.menu .item image {
+	position: absolute;
+	right: 0rpx;
+	top: 0rpx;
+	width: inherit;
+	height: inherit;
+	opacity: .3;
+}
+
+
+.tab-line {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 20rpx 30rpx 20rpx;
+	align-items: center;
+	margin-top: 20rpx;
+}
+
+.tab-line .item {
+	font-size: 34rpx;
+	font-weight: bold;
+	color: #fff;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.tab-line .item .icon-left {
+	width: 14rpx;
+	height: 36rpx;
+	background-image: linear-gradient(145deg, #08569b, #3995e6, #57addb);
+	margin-right: 14rpx;
+	border-radius: 10rpx;
+}
+
+.tab-line .item1 {
+	font-size: 24rpx;
+	color: #999;
+	padding: 6rpx 24rpx;
+	border-radius: 30rpx;
+	background-color: #333;
+}
+
+
+
+.tab-line1 {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	padding: 10rpx 10rpx 10rpx;
+	align-items: flex-end;
+	margin-top: 20rpx;
+	margin-bottom: 10rpx;
+}
+
+.tab-line1 .item {
+	font-size: 30rpx;
+	color: #ccc;
+	position: relative;
+	padding: 0 30rpx;
+}
+
+.tab-line1 .item.cur {
+	font-size: 34rpx;
+	color: #333;
+	font-weight: bold;
+}
+
+.list {
+	width: 100%;
+	padding: 20rpx 26rpx;
+	display: flex;
+	flex-direction: column;
+}
+
+.list .item {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0rpx;
+	margin-bottom: 35rpx;
+	overflow: hidden;
+	position: relative;
+	border-radius: 5rpx;
+}
+
+.list .item .status {
+	background-color: #f2f2f2;
+	color: #999;
+	position: absolute;
+	top: -2rpx;
+	right: 0;
+	z-index: 9999;
+	font-size: 24rpx;
+	padding: 6rpx 20rpx;
+	border-bottom-left-radius: 5rpx;
+	border-top-right-radius: 5rpx;
+}
+
+
+.list .item>image {
+	width: 100%;
+	height: 350rpx;
+	border-radius: 5rpx;
+}
+
+.list .item .line {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 15rpx 5rpx;
+}
+
+.list .item .line .title {
+	width: 100%;
+	font-size: 28rpx;
+	color: #000;
+	text-align: left;
+}
+
+.list .item .line .desc {
+	margin-top: 20rpx;
+	width: 100%;
+	font-size: 24rpx;
+	color: #999;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 10rpx;
+}
+
+.list .item .line .desc .mid {
+	height: 20rpx;
+	border-right: 2rpx dotted #bbb;
+	margin: 0 20rpx;
+}

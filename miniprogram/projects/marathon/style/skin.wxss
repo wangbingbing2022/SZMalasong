@@ -1,0 +1,140 @@
+page {
+	background-color: #f1f1f1 !important;
+
+	--projectColor: #263B57;
+	--projectColorLight: #13294B;
+	--projectCompareColor: #FC0035;
+
+	/*#### 父组件日历颜色定义*/
+	/* 整体颜色 */
+	--calendarPageColor: #fff;
+	/* 加重颜色*/
+	--calendarMainColor: #263B57 !important;
+	/* 加重的亮颜色 用于选中日期的数据小圆点 */
+	--calendarLightColor: #13294B;
+}
+
+.bg-admin {
+	background-color: #2499f2;
+}
+
+.text-project {
+	color: var(--projectColor) !important;
+}
+
+.bg-spec {
+	background-color: var(--projectCompareColor) !important;
+	color: #fff !important;
+}
+
+.text-spec {
+	color: var(--projectCompareColor) !important;
+}
+
+.bg-project {
+	background-color: var(--projectColor) !important;
+}
+
+.bg-project.light {
+	color: var(--projectColor) !important;
+	background-color: var(--projectColorLight) !important;
+}
+
+.border-project {
+	border-color: var(--projectColor) !important;
+}
+
+.menu-project {
+	color: var(--projectColor) !important;
+}
+
+.tabs .tab {
+	font-size: 28rpx !important;
+}
+
+.load-project {
+	color: #ccc !important;
+}
+
+.padding-project {
+	padding-left: 25rpx !important;
+	padding-right: 25rpx !important;
+}
+
+.btn-project {
+	line-height: 95rpx;
+	height: 95rpx;
+	color: #fff;
+	background-color: var(--projectCompareColor) !important;
+	border-radius: 5rpx !important;
+}
+
+.phone-button {
+	color: var(--projectColor) !important;
+}
+
+.shadow-project {
+	box-shadow: 6rpx 6rpx 20rpx rgba(216, 220, 223, 0.8);
+}
+
+.card-project,
+.main .list .item.card-project,
+.down .comm-list.menu.card-project,
+.article-box .article.card-project,
+.text-pic-list-box .item.card-project,
+.info-list-box .item.card-project,
+.main-content .content.card-project,
+.meet-list-box .item.card-project,
+.form-box.card-project,
+.bar .search-form {
+	border-radius: 5rpx !important;
+}
+
+.text-pic-list-box .item {
+	border-radius: 5rpx !important;
+}
+
+.up-project {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.up-project image {
+	padding: 0;
+	width: 100%;
+	margin: 0;
+}
+
+
+.meet-list-box {
+	padding: 20rpx 30rpx 30rpx 30rpx;
+}
+
+.title-project {
+	color: var(--projectTextColor) !important;
+}
+
+.bar .search-form {
+	background-color: #f6f7fb;
+}
+
+.tabs .cur {
+	color: #000 !important;
+}
+
+.tabs .tab-menu.cur:after {
+	content: " ";
+	position: absolute;
+	left: 50%;
+	bottom: 0rpx;
+	width: 50%;
+	height: 8rpx !important;
+	background-color: var(--projectCompareColor) !important;
+	transform: translateX(-50%);
+	border-radius: 2rpx !important;
+}
+
+.comm-list-box {
+	padding: 20rpx 20rpx 30rpx !important;
+}
